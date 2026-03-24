@@ -1,0 +1,12 @@
+# 대용량 데이터 파일
+import/
+
+# 샘플 출력 (로컬 전용)
+sample_export/
+
+# Node
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
