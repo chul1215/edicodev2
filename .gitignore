@@ -1,3 +1,53 @@
+# ===== Common Rules =====
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Claude Code
+.claude/
+
+# Node (if applicable)
+node_modules/
+
+# Python (if applicable)
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# ===== End Common Rules =====
+
+
+# ===== Project Specific =====
 # 대용량 데이터 파일
 import/
 
